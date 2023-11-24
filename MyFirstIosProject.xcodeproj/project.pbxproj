@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D5E894D2B103308001A2FE2 /* MyFirstIosProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E894C2B103308001A2FE2 /* MyFirstIosProjectApp.swift */; };
-		8D5E894F2B103308001A2FE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E894E2B103308001A2FE2 /* ContentView.swift */; };
+		8D5E894F2B103308001A2FE2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E894E2B103308001A2FE2 /* MeetingView.swift */; };
 		8D5E89512B103309001A2FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E89502B103309001A2FE2 /* Assets.xcassets */; };
 		8D5E89542B103309001A2FE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5E89532B103309001A2FE2 /* Preview Assets.xcassets */; };
 		8D5E895E2B103309001A2FE2 /* MyFirstIosProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E895D2B103309001A2FE2 /* MyFirstIosProjectTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		8D5E89492B103308001A2FE2 /* MyFirstIosProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstIosProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5E894C2B103308001A2FE2 /* MyFirstIosProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstIosProjectApp.swift; sourceTree = "<group>"; };
-		8D5E894E2B103308001A2FE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D5E894E2B103308001A2FE2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		8D5E89502B103309001A2FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5E89532B103309001A2FE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D5E89592B103309001A2FE2 /* MyFirstIosProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIosProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8D5E894C2B103308001A2FE2 /* MyFirstIosProjectApp.swift */,
-				8D5E894E2B103308001A2FE2 /* ContentView.swift */,
+				8D5E894E2B103308001A2FE2 /* MeetingView.swift */,
 				8D5E89502B103309001A2FE2 /* Assets.xcassets */,
 				8D5E89522B103309001A2FE2 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5E894F2B103308001A2FE2 /* ContentView.swift in Sources */,
+				8D5E894F2B103308001A2FE2 /* MeetingView.swift in Sources */,
 				8D5E894D2B103308001A2FE2 /* MyFirstIosProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
