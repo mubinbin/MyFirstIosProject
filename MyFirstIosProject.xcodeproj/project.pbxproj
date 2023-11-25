@@ -81,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D07752F2B126C790019B09D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D5E894E2B103308001A2FE2 /* MeetingView.swift */,
+				8DF2D0512B11AD2B00AC5AAA /* CardView.swift */,
+				8D07752D2B1265650019B09D /* ScrumsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8D5E89402B103308001A2FE2 = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +114,11 @@
 		8D5E894B2B103308001A2FE2 /* MyFirstIosProject */ = {
 			isa = PBXGroup;
 			children = (
+				8D07752F2B126C790019B09D /* Views */,
 				8DF2D04C2B11A8E900AC5AAA /* Models */,
 				8D5E894C2B103308001A2FE2 /* MyFirstIosProjectApp.swift */,
-				8D5E894E2B103308001A2FE2 /* MeetingView.swift */,
 				8D5E89502B103309001A2FE2 /* Assets.xcassets */,
 				8D5E89522B103309001A2FE2 /* Preview Content */,
-				8DF2D0512B11AD2B00AC5AAA /* CardView.swift */,
-				8D07752D2B1265650019B09D /* ScrumsView.swift */,
 			);
 			path = MyFirstIosProject;
 			sourceTree = "<group>";
