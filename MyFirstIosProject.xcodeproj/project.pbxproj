@@ -16,6 +16,7 @@
 		8D5E896A2B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E89692B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift */; };
 		8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D04D2B11A91800AC5AAA /* Theme.swift */; };
 		8DF2D0502B11AB3A00AC5AAA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */; };
+		8DF2D0522B11AD2B00AC5AAA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D0512B11AD2B00AC5AAA /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8D5E89692B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstIosProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8DF2D04D2B11A91800AC5AAA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		8DF2D0512B11AD2B00AC5AAA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8D5E894E2B103308001A2FE2 /* MeetingView.swift */,
 				8D5E89502B103309001A2FE2 /* Assets.xcassets */,
 				8D5E89522B103309001A2FE2 /* Preview Content */,
+				8DF2D0512B11AD2B00AC5AAA /* CardView.swift */,
 			);
 			path = MyFirstIosProject;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */,
 				8D5E894F2B103308001A2FE2 /* MeetingView.swift in Sources */,
 				8D5E894D2B103308001A2FE2 /* MyFirstIosProjectApp.swift in Sources */,
+				8DF2D0522B11AD2B00AC5AAA /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
