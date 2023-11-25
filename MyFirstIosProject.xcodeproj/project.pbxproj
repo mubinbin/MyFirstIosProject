@@ -17,6 +17,7 @@
 		8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D04D2B11A91800AC5AAA /* Theme.swift */; };
 		8DF2D0502B11AB3A00AC5AAA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */; };
 		8DF2D0522B11AD2B00AC5AAA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D0512B11AD2B00AC5AAA /* CardView.swift */; };
+		8DF2D0542B11BAB800AC5AAA /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D0532B11BAB800AC5AAA /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8DF2D04D2B11A91800AC5AAA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8DF2D0512B11AD2B00AC5AAA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8DF2D0532B11BAB800AC5AAA /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				8DF2D04D2B11A91800AC5AAA /* Theme.swift */,
 				8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */,
+				8DF2D0532B11BAB800AC5AAA /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF2D0502B11AB3A00AC5AAA /* DailyScrum.swift in Sources */,
+				8DF2D0542B11BAB800AC5AAA /* TrailingIconLabelStyle.swift in Sources */,
 				8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */,
 				8D5E894F2B103308001A2FE2 /* MeetingView.swift in Sources */,
 				8D5E894D2B103308001A2FE2 /* MyFirstIosProjectApp.swift in Sources */,
