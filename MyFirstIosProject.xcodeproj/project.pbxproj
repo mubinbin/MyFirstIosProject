@@ -14,6 +14,7 @@
 		8D5E895E2B103309001A2FE2 /* MyFirstIosProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E895D2B103309001A2FE2 /* MyFirstIosProjectTests.swift */; };
 		8D5E89682B103309001A2FE2 /* MyFirstIosProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E89672B103309001A2FE2 /* MyFirstIosProjectUITests.swift */; };
 		8D5E896A2B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E89692B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift */; };
+		8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2D04D2B11A91800AC5AAA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8D5E89632B103309001A2FE2 /* MyFirstIosProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstIosProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5E89672B103309001A2FE2 /* MyFirstIosProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstIosProjectUITests.swift; sourceTree = "<group>"; };
 		8D5E89692B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstIosProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DF2D04D2B11A91800AC5AAA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		8D5E894B2B103308001A2FE2 /* MyFirstIosProject */ = {
 			isa = PBXGroup;
 			children = (
+				8DF2D04C2B11A8E900AC5AAA /* Models */,
 				8D5E894C2B103308001A2FE2 /* MyFirstIosProjectApp.swift */,
 				8D5E894E2B103308001A2FE2 /* MeetingView.swift */,
 				8D5E89502B103309001A2FE2 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				8D5E89692B103309001A2FE2 /* MyFirstIosProjectUITestsLaunchTests.swift */,
 			);
 			path = MyFirstIosProjectUITests;
+			sourceTree = "<group>";
+		};
+		8DF2D04C2B11A8E900AC5AAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DF2D04D2B11A91800AC5AAA /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF2D04E2B11A91800AC5AAA /* Theme.swift in Sources */,
 				8D5E894F2B103308001A2FE2 /* MeetingView.swift in Sources */,
 				8D5E894D2B103308001A2FE2 /* MyFirstIosProjectApp.swift in Sources */,
 			);
