@@ -53,7 +53,8 @@ struct DetailView: View {
 }
 
 #Preview {
-    return
+    NavigationStack {
         DetailView(scrum: DailyScrum.sampleData[0])
+    }
     
 }
