@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DetailEditView: View {
-    @State private var newScurm = DailyScrum.emtpyScrum
+    @Binding var newScurm: DailyScrum
     @State private var newAttendeeName = ""
     
     var body: some View {
@@ -57,5 +57,5 @@ struct DetailEditView: View {
 }
 
 #Preview {
-    DetailEditView()
+    return DetailEditView(newScurm: .constant(DailyScrum.sampleData[0]))
 }
