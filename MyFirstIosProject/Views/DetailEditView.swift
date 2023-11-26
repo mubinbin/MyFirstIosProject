@@ -25,6 +25,8 @@ struct DetailEditView: View {
                     Text("\(newScurm.lengthInMinutes) minutes")
                         .accessibilityHidden(true)
                 }
+                
+                ThemePickerView(selection: $newScurm.theme)
             }
             
             Section(header: Text("Attendees")) {
