@@ -20,8 +20,10 @@ struct DetailEditView: View {
                     Slider(value: $newScurm.lengthInMinutesDouble, in: 5...30, step: 1) {
                         Text("Length")
                     }
+                    .accessibilityValue("\(newScurm.lengthInMinutes) minutes")
                     Spacer()
                     Text("\(newScurm.lengthInMinutes) minutes")
+                        .accessibilityHidden(true)
                 }
             }
             
@@ -43,6 +45,7 @@ struct DetailEditView: View {
                         }
                     }) {
                         Image(systemName: "plus.circle.fill")
+                            .accessibilityLabel("Add attendee")
                     }
                     .disabled(newAttendeeName.isEmpty)
                 }
