@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D07752E2B1265650019B09D /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07752D2B1265650019B09D /* ScrumsView.swift */; };
+		8D0F42D92B267F8500424F8B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F42D82B267F8500424F8B /* History.swift */; };
 		8D2891D82B23BD2E000A17FC /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2891D72B23BD2E000A17FC /* AVPlayer+Ding.swift */; };
 		8D2891DB2B23BDCF000A17FC /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D2891DA2B23BDCF000A17FC /* ding.wav */; };
 		8D2891DD2B23E878000A17FC /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2891DC2B23E878000A17FC /* NewScrumSheet.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		8D07752D2B1265650019B09D /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		8D0F42D82B267F8500424F8B /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		8D2891D72B23BD2E000A17FC /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		8D2891DA2B23BDCF000A17FC /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		8D2891DC2B23E878000A17FC /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				8D3381082B143F230051BE71 /* ScrumTimer.swift */,
 				8DF2D04F2B11AB3A00AC5AAA /* DailyScrum.swift */,
 				8D2891D72B23BD2E000A17FC /* AVPlayer+Ding.swift */,
+				8D0F42D82B267F8500424F8B /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0F42D92B267F8500424F8B /* History.swift in Sources */,
 				8DF2D0502B11AB3A00AC5AAA /* DailyScrum.swift in Sources */,
 				8D3381072B143BAC0051BE71 /* ScrumProgressViewStyle.swift in Sources */,
 				8D33810B2B1442870051BE71 /* MeetingFooterView.swift in Sources */,
