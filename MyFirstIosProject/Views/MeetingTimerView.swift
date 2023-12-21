@@ -27,12 +27,22 @@ struct MeetingTimerView: View {
 //     this modifier makes VoiceOver read the 2 text views as one sentence
                 .accessibilityElement(children: .combine)
             }
+            .overlay {
+                ForEach(speakers) { speaker in
+                    if speaker.isCompleted, let index = speakers.firstIndex(where: {$0.id == speaker.id}) {
+                        SpeakerArc(speakerIndex: index, totalSpeakers: speakers.count)
+                            .rotation(Angle(degrees: -90))
+                            .stroke(theme.mainColor, lineWidth: 12)
+                    }
+                }
+            }
+            .padding(.horizontal)
     }
 }
 
 #Preview {
     var speakers: [ScrumTimer.Speaker] {
-        [ScrumTimer.Speaker(name: "Binbin", isCompleted: false), ScrumTimer.Speaker(name: "MU", isCompleted: false)]
+        [ScrumTimer.Speaker(name: "Binbin", isCompleted: true), ScrumTimer.Speaker(name: "MU", isCompleted: false)]
     }
     
     return MeetingTimerView(speakers: speakers, theme: .yellow)
